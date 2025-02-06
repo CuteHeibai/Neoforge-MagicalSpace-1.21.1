@@ -19,8 +19,6 @@ import com.mojang.blaze3d.vertex.PoseStack;
 // Exported for Minecraft version 1.17 or later with Mojang mappings
 // Paste this class into your mod and generate all required imports
 public class Modelstarlight_villager<T extends Entity> extends EntityModel<T> {
-	// This layer location should be baked with EntityRendererProvider.Context in
-	// the entity renderer and passed into this model's constructor
 	public static final ModelLayerLocation LAYER_LOCATION = new ModelLayerLocation(ResourceLocation.fromNamespaceAndPath("magicalspace", "modelstarlight_villager"), "main");
 	public final ModelPart all;
 	public final ModelPart leg_right;
@@ -61,5 +59,4 @@ public class Modelstarlight_villager<T extends Entity> extends EntityModel<T> {
 	@Override
 	public void renderToBuffer(PoseStack poseStack, VertexConsumer vertexConsumer, int packedLight, int packedOverlay, int rgb) {
 		all.render(poseStack, vertexConsumer, packedLight, packedOverlay, rgb);
-	}
-}
+	}}

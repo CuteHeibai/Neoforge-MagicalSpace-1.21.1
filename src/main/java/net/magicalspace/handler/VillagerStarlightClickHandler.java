@@ -15,10 +15,12 @@ public class VillagerStarlightClickHandler {
         Player player = event.getEntity();
         Entity target = event.getTarget();
 
-        // 检查是否点击了 VillagerStarlightEntity
         if (target instanceof VillagerStarlightEntity) {
-            event.setCanceled(true); // 取消默认交互行为
+            event.setCanceled(true);
             showPopup(player);
+            ((VillagerStarlightEntity) target).setInDialog(true);
+            ((VillagerStarlightEntity) target).stopMoving(); // 停止走动
+            ((VillagerStarlightEntity) target).facePlayer(player); // 面向玩家
         }
     }
 
@@ -27,15 +29,13 @@ public class VillagerStarlightClickHandler {
         Player player = event.getEntity();
         Entity target = event.getTarget();
 
-        // 检查是否攻击了 VillagerStarlightEntity
         if (target instanceof VillagerStarlightEntity) {
-            event.setCanceled(true); // 取消默认攻击行为
+            event.setCanceled(true);
         }
     }
 
     private static void showPopup(Player player) {
         if (player instanceof ServerPlayer serverPlayer) {
-            // 使用本地化键调用 CustomDialogScreen
             VillagerStarlightDialogScreen.open(serverPlayer);
         }
     }

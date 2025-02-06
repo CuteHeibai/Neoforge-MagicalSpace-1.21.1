@@ -35,7 +35,7 @@ public class VillagerStarlightDialogScreen extends Screen {
         RenderSystem.enableBlend();
         RenderSystem.blendFuncSeparate(GlStateManager.SourceFactor.SRC_ALPHA, GlStateManager.DestFactor.ONE_MINUS_SRC_ALPHA, GlStateManager.SourceFactor.ONE, GlStateManager.DestFactor.ZERO);
         guiGraphics.blit(BACKGROUND_TEXTURE, 0, 0, 0, 0, windowWidth, windowHeight, windowWidth, windowHeight);
-        RenderSystem.disableBlend();
+//        RenderSystem.disableBlend();
 
         // 绘制文本
         int titleX = (windowWidth - minecraft.font.width(title)) / 2;
