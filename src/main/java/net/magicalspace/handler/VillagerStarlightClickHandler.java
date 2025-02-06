@@ -30,7 +30,6 @@ public class VillagerStarlightClickHandler {
         // 检查是否攻击了 VillagerStarlightEntity
         if (target instanceof VillagerStarlightEntity) {
             event.setCanceled(true); // 取消默认攻击行为
-            showPopup(player);
         }
     }
 

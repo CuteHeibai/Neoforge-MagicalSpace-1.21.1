@@ -1,12 +1,16 @@
 package net.magicalspace.screen;
 
+import com.mojang.blaze3d.platform.GlStateManager;
+import com.mojang.blaze3d.systems.RenderSystem;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.GuiGraphics;
 import net.minecraft.client.gui.screens.Screen;
 import net.minecraft.network.chat.Component;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.server.level.ServerPlayer;
 
 public class VillagerStarlightDialogScreen extends Screen {
+    private static final ResourceLocation BACKGROUND_TEXTURE = ResourceLocation.fromNamespaceAndPath("magicalspace", "textures/gui/villager_starlight_dialog.png");
     private Component title;
     private Component content;
 
@@ -26,29 +30,24 @@ public class VillagerStarlightDialogScreen extends Screen {
         int windowWidth = minecraft.getWindow().getGuiScaledWidth();
         int windowHeight = minecraft.getWindow().getGuiScaledHeight();
 
-        int dialogueHeight = windowHeight / 2;
-        int dialogueWidth = windowWidth;
-
-        int x = 0;
-        int y = windowHeight - dialogueHeight;
-
-        // 绘制半透明背景
-        guiGraphics.fill(x, y, x + dialogueWidth, y + dialogueHeight, 0x80FFFFFF);
-
-        // 绘制边框
-        guiGraphics.fill(x, y, x + dialogueWidth, y + 2, 0xFF000000); // 上边框
-        guiGraphics.fill(x, y, x + 2, y + dialogueHeight, 0xFF000000); // 左边框
-        guiGraphics.fill(x + dialogueWidth - 2, y, x + dialogueWidth, y + dialogueHeight, 0xFF000000); // 右边框
-        guiGraphics.fill(x, y + dialogueHeight - 2, x + dialogueWidth, y + dialogueHeight, 0xFF000000); // 下边框
+        // 绘制背景图片
+        RenderSystem.setShaderTexture(0, BACKGROUND_TEXTURE);
+        RenderSystem.enableBlend();
+        RenderSystem.blendFuncSeparate(GlStateManager.SourceFactor.SRC_ALPHA, GlStateManager.DestFactor.ONE_MINUS_SRC_ALPHA, GlStateManager.SourceFactor.ONE, GlStateManager.DestFactor.ZERO);
+        guiGraphics.blit(BACKGROUND_TEXTURE, 0, 0, 0, 0, windowWidth, windowHeight, windowWidth, windowHeight);
+        RenderSystem.disableBlend();
 
         // 绘制文本
         int titleX = (windowWidth - minecraft.font.width(title)) / 2;
-        int titleY = y + 20;
+        int titleY = 20;
         guiGraphics.drawString(minecraft.font, title.getString(), titleX, titleY, 0xFFFFFF, true);
 
         int contentX = (windowWidth - minecraft.font.width(content)) / 2;
-        int contentY = y + 50;
+        int contentY = 50;
         guiGraphics.drawString(minecraft.font, content.getString(), contentX, contentY, 0xFFFFFF, true);
+
+        // 其他自定义渲染逻辑
+        // ...
     }
 
     @Override
