@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "magicalspace:block/block_gem_starlight",
+    "up": "magicalspace:block/block_gem_starlight",
+    "north": "magicalspace:block/block_gem_starlight_side",
+    "east": "magicalspace:block/block_gem_starlight_side",
+    "south": "magicalspace:block/block_gem_starlight_side",
+    "west": "magicalspace:block/block_gem_starlight_side",
+    "particle": "magicalspace:block/block_gem_starlight"
+  },
+  "render_type": "solid"
+}

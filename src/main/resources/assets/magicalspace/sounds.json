@@ -1,0 +1,26 @@
+{
+  "annies_wonderland": {
+    "sounds": [
+      {
+        "name": "magicalspace:annies_wonderland",
+        "stream": true
+      }
+    ]
+  },
+  "on_this_eve_of_parting_pt3": {
+    "sounds": [
+      {
+        "name": "magicalspace:chuck_van_zyl_-_on_this_eve_of_parting_pt._3",
+        "stream": false
+      }
+    ]
+  },
+  "city_of_tears": {
+    "sounds": [
+      {
+        "name": "magicalspace:christopher_larkin_-_city_of_tears",
+        "stream": false
+      }
+    ]
+  }
+}

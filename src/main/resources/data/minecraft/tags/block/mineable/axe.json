@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "magicalspace:trap_door_starlight",
+    "magicalspace:slab_starlight",
+    "magicalspace:door_starlight",
+    "magicalspace:stairs_plank_starlight",
+    "magicalspace:oak_planks_starlight",
+    "magicalspace:oak_log_starlight"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "magicalspace:block/obsidian_starlight",
+    "particle": "magicalspace:block/obsidian_starlight"
+  },
+  "render_type": "solid"
+}

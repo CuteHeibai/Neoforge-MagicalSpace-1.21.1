@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "magicalspace:block/starlightflower_bottom",
+    "particle": "magicalspace:block/starlightflower_top"
+  },
+  "render_type": "cutout"
+}

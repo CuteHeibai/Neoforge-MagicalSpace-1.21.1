@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "magicalspace:oak_log_starlight"
+    }
+  ],
+  "result": {
+    "id": "magicalspace:oak_planks_starlight",
+    "count": 4
+  }
+}

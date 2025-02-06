@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "magicalspace:block/ore_starlight",
+    "up": "magicalspace:block/ore_starlight",
+    "north": "magicalspace:block/ore_starlight",
+    "east": "magicalspace:block/ore_starlight",
+    "south": "magicalspace:block/ore_starlight",
+    "west": "magicalspace:block/ore_starlight",
+    "particle": "magicalspace:block/ore_starlight"
+  },
+  "render_type": "solid"
+}

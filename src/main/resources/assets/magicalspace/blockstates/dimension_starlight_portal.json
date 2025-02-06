@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "magicalspace:block/dimension_starlight_portal_ew"
+    },
+    "axis=x": {
+      "model": "magicalspace:block/dimension_starlight_portal_ns"
+    }
+  }
+}

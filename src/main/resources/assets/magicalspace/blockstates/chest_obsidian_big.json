@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "magicalspace:block/chest_obsidian_big"
+    },
+    "facing=east": {
+      "model": "magicalspace:block/chest_obsidian_big",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "magicalspace:block/chest_obsidian_big",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "magicalspace:block/chest_obsidian_big",
+      "y": 270
+    }
+  }
+}

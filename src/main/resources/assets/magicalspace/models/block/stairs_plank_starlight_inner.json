@@ -1,0 +1,10 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "particle": "magicalspace:block/oak_planks_starlight",
+    "bottom": "magicalspace:block/oak_planks_starlight",
+    "top": "magicalspace:block/stair_starlight_top",
+    "side": "magicalspace:block/oak_planks_starlight"
+  },
+  "render_type": "cutout_mipped"
+}

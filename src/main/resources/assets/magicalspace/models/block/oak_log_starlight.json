@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "magicalspace:block/oak_log_starlight_top",
+    "up": "magicalspace:block/oak_log_starlight_top",
+    "north": "magicalspace:block/oak_log_starlight_side",
+    "east": "magicalspace:block/oak_log_starlight_side",
+    "south": "magicalspace:block/oak_log_starlight_side",
+    "west": "magicalspace:block/oak_log_starlight_side",
+    "particle": "magicalspace:block/oak_log_starlight_top"
+  },
+  "render_type": "solid"
+}

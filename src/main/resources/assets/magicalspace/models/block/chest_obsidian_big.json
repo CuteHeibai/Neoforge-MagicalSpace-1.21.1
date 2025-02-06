@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "magicalspace:block/chest_obsidian_top",
+    "up": "magicalspace:block/chest_obsidian_top",
+    "north": "magicalspace:block/chest_obsidian_side1",
+    "east": "magicalspace:block/chest_obsidian_side2",
+    "south": "magicalspace:block/chest_obsidian_side2",
+    "west": "magicalspace:block/chest_obsidian_side2",
+    "particle": "magicalspace:block/chest_obsidian_top"
+  },
+  "render_type": "solid"
+}

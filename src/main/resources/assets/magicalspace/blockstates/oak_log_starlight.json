@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "magicalspace:block/oak_log_starlight",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "magicalspace:block/oak_log_starlight"
+    },
+    "axis=z": {
+      "model": "magicalspace:block/oak_log_starlight",
+      "x": 90
+    }
+  }
+}

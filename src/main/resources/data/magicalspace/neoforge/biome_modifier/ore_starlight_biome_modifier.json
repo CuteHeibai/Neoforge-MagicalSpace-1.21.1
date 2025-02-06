@@ -1,0 +1,8 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": {
+    "type": "neoforge:any"
+  },
+  "features": "magicalspace:ore_starlight",
+  "step": "underground_ores"
+}

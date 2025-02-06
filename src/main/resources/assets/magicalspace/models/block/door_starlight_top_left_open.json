@@ -1,0 +1,9 @@
+{
+  "parent": "block/door_top_left_open",
+  "textures": {
+    "particle": "magicalspace:block/door_starlight_bottom",
+    "bottom": "magicalspace:block/door_starlight_bottom",
+    "top": "magicalspace:block/door_starlight"
+  },
+  "render_type": "cutout_mipped"
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "magicalspace:block/block_starlight"
+    },
+    "facing=east": {
+      "model": "magicalspace:block/block_starlight",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "magicalspace:block/block_starlight",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "magicalspace:block/block_starlight",
+      "y": 270
+    }
+  }
+}

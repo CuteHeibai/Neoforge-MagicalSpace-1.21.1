@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "magicalspace:item/door_starlight_icon"
+  },
+  "render_type": "translucent"
+}

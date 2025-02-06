@@ -1,0 +1,79 @@
+{
+  //对话
+  "magicalspace.dialog.title": "Villager Starlight",
+  "magicalspace.dialog.content": "Welcome to the magical world!",
+
+  // 物品
+  "item.magicalspace.cripsy_starlight": "Crispy Starlight",
+  "item.magicalspace.starslight_bucket": "Starslight Bucket",
+  "item.magicalspace.dimension_starlight": "Dark Starlight",
+  "item.magicalspace.starlight": "Starlight",
+  "item.magicalspace.sword_gem_starlight": "Sword Gem Starlight",
+  "item.magicalspace.villager_starlight_spawn_egg": "Villager Starlight Spawn Egg",
+  "item.magicalspace.mob_dark_starlight_mage_spawn_egg": "Mob Dark Starlight Mage Spawn Egg",
+  "item.magicalspace.gem_magical_starlight": "Gem Magical Starlight",
+  "item.magicalspace.embryo_sword_gem_starlight": "Embryo Sword Gem Starlight",
+  "item.magicalspace.gem_starlight": "Gem Starlight",
+  "item.magicalspace.apple_starlight": "Apple Starlight",
+  "item.magicalspace.disc_starlight": "Disc Starlight",
+  "item.magicalspace.disc_starlight.desc": "From Starlight Forest",
+
+  // 方块
+  "block.magicalspace.trap_door_starlight": "Trap Door Starlight",
+  "block.magicalspace.door_starlight": "Door Starlight",
+  "block.magicalspace.oak_log_starlight": "Oak Log Starlight",
+  "block.magicalspace.slab_starlight": "Slab Starlight",
+  "block.magicalspace.block_magical_starlight": "Block Magical Starlight",
+  "block.magicalspace.chest_obsidian_big": "Chest Obsidian Big",
+  "block.magicalspace.leaves_starlight": "Leaves Starlight",
+  "block.magicalspace.starlight_flower": "Starlight Flower",
+  "block.magicalspace.ore_starlight": "Ore Starlight",
+  "block.magicalspace.block_starlight": "Block Starlight",
+  "block.magicalspace.grass_starlight": "Grass Starlight",
+  "block.magicalspace.sapling_starlight": "Sapling Starlight",
+  "block.magicalspace.chest_obsidian_chest": "Chest Obsidian Chest",
+  "block.magicalspace.stairs_plank_starlight": "Stairs Plank Starlight",
+  "block.magicalspace.obsidian_starlight": "Obsidian Starlight",
+  "block.magicalspace.oak_planks_starlight": "Oak Planks Starlight",
+  "block.magicalspace.starslight": "Starslight",
+  "block.magicalspace.spawner_starlight_villager": "Spawner Starlight Villager",
+
+  // 提示
+  "tip.boom": "BOOM!",
+  "tip.full_eating_crispy_starlight": "You got the hunt from stars",
+  "tip.hungry_eating_crispy_starlight": "You're Lucky",
+  "tip.burn.embry_sword_gem_starlight": "The starlight is being soothed",
+  "tip.gem_starlight": "The energy of starlight seems to be sealed by some ancient curse",
+
+  // 信息
+  "info.notenoughexp": "Not Enough Experiences",
+  "info.information.gem_starlight": "Annie's Wonderland",
+  "info.apple_starlight": "Crunchy... crunchy...",
+  "info.sword_gem_starlight": "The starlight begins to become restless",
+  "info.embryo_sword_gem_starlight": "It will break, don't mess with it",
+  "info.starlight": "The kid who left home",
+  "info.obsidian_starlight": "The forerunners made themselves the cornerstone...",
+  "info.block_magicalstarlight": "Full of starlight",
+  "info.gem_magicalstarlight": "The lost starlight will find its way home",
+  "info.disc_starlight": "Annie's Wonderland by Bandari",
+  "info.crispy_starlight": "Yummy!",
+
+  // 生物群系
+  "biome.magicalspace.foreset_starlight": "Foreset Starlight",
+  "biome.magicalspace.dark_starlight_forest": "Dark Starlight Forest",
+
+  // 字幕
+  "subtitles.annies_wonderland": "",
+  "subtitles.on_this_eve_of_parting_pt3": "",
+  "subtitles.city_of_tears": "",
+
+  // 实体
+  "entity.magicalspace.mob_dark_starlight_mage": "Mob Dark Starlight Mage",
+  "entity.magicalspace.villager_starlight": "Villager Starlight",
+
+  // 流体
+  "fluid.magicalspace.starslight": "Starslight",
+
+  // 测试
+  "test.chest_obsidian": "Obsidian Chest"
+}

@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "magicalspace:oak_planks_starlight",
+    "magicalspace:oak_log_starlight",
+    "magicalspace:grass_starlight",
+    "magicalspace:obsidian_starlight",
+    "magicalspace:chest_obsidian_chest",
+    "magicalspace:chest_obsidian_big"
+  ]
+}

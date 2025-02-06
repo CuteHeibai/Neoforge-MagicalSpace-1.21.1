@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "magicalspace:block_starlight",
+    "magicalspace:ore_starlight",
+    "magicalspace:block_magical_starlight"
+  ]
+}

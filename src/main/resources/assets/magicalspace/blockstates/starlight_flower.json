@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=upper": {
+      "model": "magicalspace:block/starlight_flower"
+    },
+    "half=lower": {
+      "model": "magicalspace:block/starlight_flower_bottom"
+    }
+  }
+}

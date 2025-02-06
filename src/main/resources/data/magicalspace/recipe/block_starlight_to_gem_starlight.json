@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "magicalspace:block_starlight"
+    }
+  ],
+  "result": {
+    "id": "magicalspace:gem_starlight",
+    "count": 9
+  }
+}

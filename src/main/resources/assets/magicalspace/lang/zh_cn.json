@@ -1,0 +1,82 @@
+{
+  // 对话
+  "magicalspace.dialog.title": "星光村民",
+  "magicalspace.dialog.content": "欢迎来到魔法世界！",
+
+  // 物品
+  "item.magicalspace.cripsy_starlight": "§e酥脆的星光",
+  "item.magicalspace.starslight_bucket": "§b星光桶",
+  "item.magicalspace.dimension_starlight": "§e黑暗星光",
+  "item.magicalspace.starlight": "§b星光",
+  "item.magicalspace.sword_gem_starlight": "§b星光剑",
+  "item.magicalspace.villager_starlight_spawn_egg": "§b星光村民生成",
+  "item.magicalspace.mob_dark_starlight_mage_spawn_egg": "§9黑暗星光法师生物蛋",
+  "item.magicalspace.gem_magical_starlight": "§b星光魔珠",
+  "item.magicalspace.embryo_sword_gem_starlight": "§b星光剑胚",
+  "item.magicalspace.gem_starlight": "§b星光凝珠",
+  "item.magicalspace.disc_starlight": "§e星光唱片",
+  "item.magicalspace.disc_starlight.desc": "Annie\u0027s Wonderland by Bandari",
+  "item.magicalspace.apple_starlight": "§b星光苹果",
+
+  // 方块
+  "block.magicalspace.trap_door_starlight": "§b星光木活板门",
+  "block.magicalspace.door_starlight": "§b星光木门",
+  "block.magicalspace.oak_log_starlight": "§b星光原木",
+  "block.magicalspace.slab_starlight": "§b星光台阶",
+  "block.magicalspace.chest_obsidian_big": "§b大型黑曜石箱",
+  "block.magicalspace.block_magical_starlight": "§b星光魔石块",
+  "block.magicalspace.leaves_starlight": "§b星光树叶",
+  "block.magicalspace.starlight_flower": "§b向星藤",
+  "block.magicalspace.ore_starlight": "§b星光凝矿",
+  "block.magicalspace.block_starlight": "§b星光凝块",
+  "block.magicalspace.grass_starlight": "§b星光草方块",
+  "block.magicalspace.sapling_starlight": "§b星光树苗",
+  "block.magicalspace.chest_obsidian_chest": "§b黑曜石箱",
+  "block.magicalspace.stairs_plank_starlight": "§b星光楼梯",
+  "block.magicalspace.oak_planks_starlight": "§b星光木板",
+  "block.magicalspace.obsidian_starlight": "§b星光黑曜石",
+  "block.magicalspace.starslight": "星光",
+  "block.magicalspace.spawner_starlight_villager": "Spawner Starlight Villager",
+
+  // 提示
+  "tip.boom": "§4都说了会炸了！",
+  "tip.full_eating_crispy_starlight": "§4受到了星空的惩罚!",
+  "tip.hungry_eating_crispy_starlight": "§4星空眷顾了这位可怜的孩子!",
+  "tip.gem_starlight": "§4星光的能量似乎被某种古老的诅咒封印",
+  "tip.burn.embry_sword_gem_starlight": "§9星光正在被安抚",
+
+  // 信息
+  "info.notenoughexp": "§4你需要足够的经验",
+  "info.information.gem_starlight": "§9百万年前的月光普照大地产生的精华...每到夜晚便散发出凄冷的月光",
+  "info.sword_gem_starlight": "§4星光开始暴躁起来",
+  "info.embryo_sword_gem_starlight": "§4极其不稳定！！！！！",
+  "info.starlight": "§9离家的孩子§7(给物品注入星光)",
+  "info.obsidian_starlight": "§9先行者们把自己作为基石...",
+  "info.block_magicalstarlight": "§9凝聚了古老的星光§7(放置后右键获得经验)",
+  "info.disc_starlight": "§9Magical Space",
+  "info.crispy_starlight": "§eYummy!",
+  "info.apple_starlight": "§b咯牙咯咯咯...",
+  "info.gem_magicalstarlight": "§9迷失的星光终将找到它回家的路...",
+
+  // 生物群系
+  "biome.magicalspace.foreset_starlight": "§b星光森林",
+  "biome.magicalspace.dark_starlight_forest": "§9黑暗星光森林",
+
+  // 字幕
+  "subtitles.annies_wonderland": "",
+  "subtitles.on_this_eve_of_parting_pt3": "",
+  "subtitles.city_of_tears": "",
+
+  // 实体
+  "entity.magicalspace.mob_dark_starlight_mage": "§9黑暗星光法师",
+  "entity.magicalspace.villager_starlight": "§b星光村民",
+
+  // 流体
+  "fluid.magicalspace.starslight": "星光",
+
+  // 物品组
+  "item_group.magicalspace.magic_space": "§b星空法术",
+
+  // 测试
+  "text.chest_obsidian": "黑曜石箱"
+}

@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "magicalspace:starlight_altar",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 16,
+    "separation": 15,
+    "salt": 1639771318
+  }
+}

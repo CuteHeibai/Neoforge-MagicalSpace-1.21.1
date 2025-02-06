@@ -1,0 +1,34 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="Not specified"
+
+[[mods]]
+modId="magicalspace"
+version="1.0.0"
+displayName="MagicalSpace"
+displayURL="https://space.bilibili.com/557638284?spm_id_from=333.788.0.0"
+credits="Created using mod maker MCreator - https://mcreator.net/about"
+authors="Cuteheibai"
+
+# Start of user code block mod configuration
+# End of user code block mod configuration
+
+[[dependencies.magicalspace]]
+    modId="neoforge"
+    type="required"
+    versionRange="[21.1.65,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.magicalspace]]
+    modId="minecraft"
+    type="required"
+    versionRange="[1.21.1]"
+    ordering="AFTER"
+    side="BOTH"
+
+
+
+
+# Start of user code block dependencies configuration
+# End of user code block dependencies configuration

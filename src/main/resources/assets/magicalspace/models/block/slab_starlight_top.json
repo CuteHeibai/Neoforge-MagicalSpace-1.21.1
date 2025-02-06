@@ -1,0 +1,10 @@
+{
+  "parent": "block/slab_top",
+  "textures": {
+    "particle": "magicalspace:block/oak_planks_starlight",
+    "bottom": "magicalspace:block/oak_planks_starlight",
+    "top": "magicalspace:block/oak_planks_starlight",
+    "side": "magicalspace:block/oak_planks_starlight"
+  },
+  "render_type": "cutout_mipped"
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aa",
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "magicalspace:oak_planks_starlight"
+    }
+  },
+  "result": {
+    "id": "magicalspace:door_starlight",
+    "count": 1
+  }
+}

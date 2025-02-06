@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "magicalspace:foreset_starlight",
+  "features": "magicalspace:sapling_starlight",
+  "step": "vegetal_decoration"
+}

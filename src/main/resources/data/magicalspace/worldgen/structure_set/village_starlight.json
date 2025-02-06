@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "magicalspace:village_starlight",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 21,
+    "separation": 20,
+    "salt": 2081458229
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "experience": 0,
+  "cookingtime": 600,
+  "ingredient": {
+    "item": "magicalspace:starlight"
+  },
+  "result": {
+    "id": "magicalspace:cripsy_starlight"
+  }
+}

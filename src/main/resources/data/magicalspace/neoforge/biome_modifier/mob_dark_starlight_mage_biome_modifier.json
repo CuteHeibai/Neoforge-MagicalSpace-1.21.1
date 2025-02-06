@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "magicalspace:dark_starlight_forest",
+  "spawners": {
+    "type": "magicalspace:mob_dark_starlight_mage",
+    "weight": 6,
+    "minCount": 2,
+    "maxCount": 3
+  }
+}

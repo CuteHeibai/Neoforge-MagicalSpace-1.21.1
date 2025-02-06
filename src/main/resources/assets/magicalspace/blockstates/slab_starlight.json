@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "magicalspace:block/slab_starlight"
+    },
+    "type=top": {
+      "model": "magicalspace:block/slab_starlight_top"
+    },
+    "type=double": {
+      "model": "magicalspace:block/slab_starlight_full"
+    }
+  }
+}

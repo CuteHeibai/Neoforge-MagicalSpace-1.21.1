@@ -1,0 +1,9 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "magicalspace:foreset_starlight",
+    "magicalspace:dark_starlight_forest"
+  ],
+  "features": "magicalspace:starlight_flower",
+  "step": "vegetal_decoration"
+}
