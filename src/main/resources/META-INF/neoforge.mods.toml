@@ -1,13 +1,13 @@
 modLoader="javafml"
 loaderVersion="[4,)"
-license="Not specified"
+license="MIT"
 
 [[mods]]
 modId="magicalspace"
 version="1.0.0"
 displayName="MagicalSpace"
 displayURL="https://space.bilibili.com/557638284?spm_id_from=333.788.0.0"
-credits="Created using mod maker MCreator - https://mcreator.net/about"
+credits="初期使用Mcreator制作"
 authors="Cuteheibai"
 
 # Start of user code block mod configuration
