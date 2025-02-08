@@ -37,6 +37,8 @@ import java.util.HashMap;
 import java.util.Collection;
 import java.util.ArrayList;
 
+// Mod主文件
+//用来传入基本信息和注册元素类型
 @Mod("magicalspace")
 public class MagicalspaceMod {
 	public static final Logger LOGGER = LogManager.getLogger(MagicalspaceMod.class);
@@ -44,6 +46,7 @@ public class MagicalspaceMod {
 
 	public static boolean chatBoxOpened = false; // 控制对话框显示状态
 
+	//元素类型注册
 	public MagicalspaceMod(IEventBus modEventBus) {
 		NeoForge.EVENT_BUS.register(this);
 		modEventBus.addListener(this::registerNetworking);
@@ -73,8 +76,7 @@ public class MagicalspaceMod {
 	private static boolean networkingRegistered = false;
 	private static final Map<CustomPacketPayload.Type<?>, NetworkMessage<?>> MESSAGES = new HashMap<>();
 
-	private record NetworkMessage<T extends CustomPacketPayload>(StreamCodec<? extends FriendlyByteBuf, T> reader, IPayloadHandler<T> handler) {
-	}
+	private record NetworkMessage<T extends CustomPacketPayload>(StreamCodec<? extends FriendlyByteBuf, T> reader, IPayloadHandler<T> handler) {}
 
 	public static <T extends CustomPacketPayload> void addNetworkMessage(CustomPacketPayload.Type<T> id, StreamCodec<? extends FriendlyByteBuf, T> reader, IPayloadHandler<T> handler) {
 		if (networkingRegistered)
@@ -82,7 +84,6 @@ public class MagicalspaceMod {
 		MESSAGES.put(id, new NetworkMessage<>(reader, handler));
 	}
 
-	@SuppressWarnings({"rawtypes", "unchecked"})
 	private void registerNetworking(final RegisterPayloadHandlersEvent event) {
 		final PayloadRegistrar registrar = event.registrar(MODID);
 		MESSAGES.forEach((id, networkMessage) -> registrar.playBidirectional(id, ((NetworkMessage) networkMessage).reader(), ((NetworkMessage) networkMessage).handler()));

@@ -72,7 +72,7 @@ public class MobDarkStarlightMageEntity extends Monster {
 
 	public static AttributeSupplier.Builder createAttributes() {
 		AttributeSupplier.Builder builder = Mob.createMobAttributes();
-		builder = builder.add(Attributes.MOVEMENT_SPEED, 0.3);
+		builder = builder.add(Attributes.MOVEMENT_SPEED, 0.2);
 		builder = builder.add(Attributes.MAX_HEALTH, 50);
 		builder = builder.add(Attributes.ARMOR, 2);
 		builder = builder.add(Attributes.ATTACK_DAMAGE, 8);
@@ -136,6 +136,7 @@ public class MobDarkStarlightMageEntity extends Monster {
 				double t = i * step;
 				Vec3 particlePos = startPos.add(direction.scale(t));
 
+				// 只在粒子束的路径上生成粒子，不飞散
 				((ServerLevel) level()).sendParticles(
 						MagicalspaceModParticleTypes.PARTICLES_DARK_STARLIGHT.get(),
 						particlePos.x, particlePos.y, particlePos.z,
@@ -146,6 +147,16 @@ public class MobDarkStarlightMageEntity extends Monster {
 			}
 
 			if (particleAge++ > 10) { // 粒子飞行时间约0.5秒
+				// 在目标身上生成额外的粒子
+				((ServerLevel) level()).sendParticles(
+						MagicalspaceModParticleTypes.PARTICLES_DARK_STARLIGHT.get(),
+						endPos.x, endPos.y, endPos.z,
+						10, // 粒子数量
+						0.2, 0.2, 0.2, // 随机偏移
+						0.1 // 速度
+				);
+
+				// 对目标造成伤害
 				currentTarget.hurt(damageSources().mobAttack(this), (float) getAttributeValue(Attributes.ATTACK_DAMAGE));
 				currentTarget = null;
 				particleAge = 0;

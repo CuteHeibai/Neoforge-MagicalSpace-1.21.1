@@ -125,8 +125,8 @@ public class VillagerStarlightEntity extends PathfinderMob {
 	@Override
 	public boolean hurt(DamageSource source, float amount) {
 		if (source.getDirectEntity() instanceof MobDarkStarlightMageEntity) {
-			// 调用父类的 hurt 方法，但将伤害值设置为 0
-			return super.hurt(source, 0.0F);
+			// 调用父类的 hurt 方法，但将伤害值设置为 1
+			return super.hurt(source, 1.0F);
 		}
 		return super.hurt(source, amount); // 其他伤害正常处理
 	}
