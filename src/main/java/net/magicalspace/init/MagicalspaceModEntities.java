@@ -26,7 +26,7 @@ public class MagicalspaceModEntities {
 	public static final DeferredHolder<EntityType<?>, EntityType<MobDarkStarlightMageEntity>> MOB_DARK_STARLIGHT_MAGE = register("mob_dark_starlight_mage",
 			EntityType.Builder.<MobDarkStarlightMageEntity>of(MobDarkStarlightMageEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
 
-					.sized(1.3f, 1.7f));
+					.sized(1.1f, 1.7f));
 	public static final DeferredHolder<EntityType<?>, EntityType<VillagerStarlightEntity>> VILLAGER_STARLIGHT = register("villager_starlight",
 			EntityType.Builder.<VillagerStarlightEntity>of(VillagerStarlightEntity::new, MobCategory.AMBIENT).setShouldReceiveVelocityUpdates(true).setTrackingRange(16).setUpdateInterval(3)
 

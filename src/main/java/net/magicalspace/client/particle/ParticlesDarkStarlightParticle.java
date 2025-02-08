@@ -33,15 +33,12 @@ public class ParticlesDarkStarlightParticle extends TextureSheetParticle {
 	private final SpriteSet spriteSet;
 
 	protected ParticlesDarkStarlightParticle(ClientLevel world, double x, double y, double z, double vx, double vy, double vz, SpriteSet spriteSet) {
-		super(world, x, y, z);
+		super(world, x, y, z, vx, vy, vz);
 		this.spriteSet = spriteSet;
-		this.setSize(0.2f, 0.2f);
-		this.lifetime = 7;
-		this.gravity = -0.1f;
-		this.hasPhysics = true;
-		this.xd = vx * 0;
-		this.yd = vy * 0;
-		this.zd = vz * 0;
+		this.setSize(0.1f, 0.1f);
+		this.lifetime = 10; // 更短的生命周期
+		this.gravity = 0;
+		this.hasPhysics = false;
 		this.setSpriteFromAge(spriteSet);
 	}
 
@@ -59,7 +56,8 @@ public class ParticlesDarkStarlightParticle extends TextureSheetParticle {
 	public void tick() {
 		super.tick();
 		if (!this.removed) {
-			this.setSprite(this.spriteSet.get((this.age / 2) % 7 + 1, 7));
+			this.setSprite(this.spriteSet.get((this.age) % 7, 7));
+			this.alpha = 1.0f - (float)this.age / (float)this.lifetime;
 		}
 	}
 }
