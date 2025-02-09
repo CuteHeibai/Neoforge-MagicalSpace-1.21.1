@@ -18,6 +18,7 @@ public class SpawnerStarlightVillagerBlock extends Block {
 		super(BlockBehaviour.Properties.of().sound(SoundType.WOOD).strength(-1, 3600000).randomTicks().pushReaction(PushReaction.BLOCK));
 	}
 
+
 	@Override
 	public int getLightBlock(BlockState state, BlockGetter worldIn, BlockPos pos) {
 		return 15;

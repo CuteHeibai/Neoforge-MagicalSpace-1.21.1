@@ -26,7 +26,7 @@ public class MagicalspaceModEntities {
 	public static final DeferredHolder<EntityType<?>, EntityType<VillagerStarlightEntity>> VILLAGER_STARLIGHT = register("villager_starlight",
 			EntityType.Builder.<VillagerStarlightEntity>of(VillagerStarlightEntity::new, MobCategory.AMBIENT).setShouldReceiveVelocityUpdates(true).setTrackingRange(16).setUpdateInterval(3)
 
-					.sized(0.8f, 1.9f));
+					.sized(0.75f, 1.9f));
 
 	// Start of user code block custom entities
 	// End of user code block custom entities

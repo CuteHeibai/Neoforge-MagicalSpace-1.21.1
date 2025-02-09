@@ -1,9 +1,9 @@
 {
-  //对话
+
   "magicalspace.dialog.title": "Villager Starlight",
   "magicalspace.dialog.content": "Welcome to the magical world!",
 
-  // 物品
+
   "item.magicalspace.cripsy_starlight": "Crispy Starlight",
   "item.magicalspace.starslight_bucket": "Starslight Bucket",
   "item.magicalspace.dimension_starlight": "Dark Starlight",
@@ -18,7 +18,7 @@
   "item.magicalspace.disc_starlight": "Disc Starlight",
   "item.magicalspace.disc_starlight.desc": "From Starlight Forest",
 
-  // 方块
+
   "block.magicalspace.trap_door_starlight": "Trap Door Starlight",
   "block.magicalspace.door_starlight": "Door Starlight",
   "block.magicalspace.oak_log_starlight": "Oak Log Starlight",
@@ -38,14 +38,14 @@
   "block.magicalspace.starslight": "Starslight",
   "block.magicalspace.spawner_starlight_villager": "Spawner Starlight Villager",
 
-  // 提示
+
   "tip.boom": "BOOM!",
   "tip.full_eating_crispy_starlight": "You got the hunt from stars",
   "tip.hungry_eating_crispy_starlight": "You're Lucky",
   "tip.burn.embry_sword_gem_starlight": "The starlight is being soothed",
   "tip.gem_starlight": "The energy of starlight seems to be sealed by some ancient curse",
 
-  // 信息
+
   "info.notenoughexp": "Not Enough Experiences",
   "info.information.gem_starlight": "Annie's Wonderland",
   "info.apple_starlight": "Crunchy... crunchy...",
@@ -58,22 +58,20 @@
   "info.disc_starlight": "Annie's Wonderland by Bandari",
   "info.crispy_starlight": "Yummy!",
 
-  // 生物群系
+
   "biome.magicalspace.foreset_starlight": "Foreset Starlight",
   "biome.magicalspace.dark_starlight_forest": "Dark Starlight Forest",
 
-  // 字幕
+
   "subtitles.annies_wonderland": "",
   "subtitles.on_this_eve_of_parting_pt3": "",
   "subtitles.city_of_tears": "",
 
-  // 实体
+
   "entity.magicalspace.mob_dark_starlight_mage": "Mob Dark Starlight Mage",
   "entity.magicalspace.villager_starlight": "Villager Starlight",
 
-  // 流体
   "fluid.magicalspace.starslight": "Starslight",
 
-  // 测试
   "test.chest_obsidian": "Obsidian Chest"
 }

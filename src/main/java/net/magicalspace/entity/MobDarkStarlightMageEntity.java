@@ -1,6 +1,7 @@
 package net.magicalspace.entity;
 
 import net.magicalspace.init.MagicalspaceModParticleTypes;
+import net.minecraft.core.BlockPos;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.entity.*;
 import net.minecraft.world.level.levelgen.Heightmap;
@@ -30,6 +31,7 @@ public class MobDarkStarlightMageEntity extends Monster {
 	private int attackCooldown;
 	private LivingEntity currentTarget;
 	private int particleAge;
+	private BlockPos spawnPos; // 记录生成位置
 
 	public boolean isSwinging() { // 添加这个方法
 		return swinging;
@@ -45,6 +47,7 @@ public class MobDarkStarlightMageEntity extends Monster {
 		xpReward = 5;
 		setNoAi(false);
 		this.swinging = false;
+		this.spawnPos = this.blockPosition(); // 初始化时记录出生点
 	}
 
 
@@ -162,6 +165,10 @@ public class MobDarkStarlightMageEntity extends Monster {
 				particleAge = 0;
 			}
 		}
+		if (this.currentTarget != null &&
+				currentTarget.distanceToSqr(Vec3.atCenterOf(spawnPos)) < 25) {
+			this.currentTarget = null;
+		}
 	}
 	@Override
 	public boolean doHurtTarget(Entity target) {
@@ -171,7 +178,12 @@ public class MobDarkStarlightMageEntity extends Monster {
 			this.swing(InteractionHand.MAIN_HAND);
 			return true;
 		}
-		return false;
+		if (target.distanceToSqr(Vec3.atCenterOf(spawnPos)) < 25) { // 5格距离平方
+			this.currentTarget = null;
+			return false;
+		}
+		return super.doHurtTarget(target);
 	}
+
 
 }
