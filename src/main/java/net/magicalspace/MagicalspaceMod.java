@@ -1,6 +1,5 @@
 package net.magicalspace;
 
-import net.magicalspace.handler.VillagerStarlightClickHandler;
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
 
@@ -62,7 +61,7 @@ public class MagicalspaceMod {
 
 		MagicalspaceModFluids.REGISTRY.register(modEventBus);
 		MagicalspaceModFluidTypes.REGISTRY.register(modEventBus);
-		NeoForge.EVENT_BUS.register(VillagerStarlightClickHandler.class);
+
 	}
 
 	@SubscribeEvent

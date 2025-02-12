@@ -1,5 +1,6 @@
 package net.magicalspace.init;
 
+import net.magicalspace.entity.VillagerStarlightEntity;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.neoforged.neoforge.registries.DeferredHolder;
 import net.neoforged.neoforge.event.entity.RegisterSpawnPlacementsEvent;
@@ -12,7 +13,6 @@ import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.core.registries.Registries;
 
-import net.magicalspace.entity.VillagerStarlightEntity;
 import net.magicalspace.entity.MobDarkStarlightMageEntity;
 import net.magicalspace.MagicalspaceMod;
 

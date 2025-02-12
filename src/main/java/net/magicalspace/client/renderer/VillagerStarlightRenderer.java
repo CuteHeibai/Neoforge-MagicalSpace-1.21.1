@@ -1,13 +1,13 @@
 
 package net.magicalspace.client.renderer;
 
+import net.magicalspace.entity.VillagerStarlightEntity;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.client.renderer.entity.MobRenderer;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
 import net.minecraft.client.model.geom.ModelPart;
 import net.minecraft.client.model.HierarchicalModel;
 
-import net.magicalspace.entity.VillagerStarlightEntity;
 import net.magicalspace.client.model.animations.starlight_villagerAnimation;
 import net.magicalspace.client.model.Modelstarlight_villager;
 

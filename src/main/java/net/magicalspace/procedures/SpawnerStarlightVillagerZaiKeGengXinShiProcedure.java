@@ -1,5 +1,6 @@
 package net.magicalspace.procedures;
 
+import net.magicalspace.entity.VillagerStarlightEntity;
 import net.minecraft.world.phys.Vec3;
 import net.minecraft.world.phys.AABB;
 import net.minecraft.world.level.block.state.properties.Property;
@@ -12,7 +13,6 @@ import net.minecraft.core.BlockPos;
 
 import net.magicalspace.init.MagicalspaceModEntities;
 import net.magicalspace.init.MagicalspaceModBlocks;
-import net.magicalspace.entity.VillagerStarlightEntity;
 
 public class SpawnerStarlightVillagerZaiKeGengXinShiProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z) {
